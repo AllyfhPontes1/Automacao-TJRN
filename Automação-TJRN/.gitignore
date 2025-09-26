@@ -1,0 +1,12 @@
+# Ignorar todos os PDFs e planilhas da pasta dados
+dados/*
+
+# Mas manter a pasta dados e subpastas no Git
+!dados/
+!dados/pdfs/
+!dados/saida/
+
+# (Opcional) manter um arquivo vazio para a pasta não sumir
+!dados/.gitkeep
+!dados/pdfs/.gitkeep
+!dados/saida/.gitkeep
